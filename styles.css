@@ -100,6 +100,15 @@ a {
   padding: 1rem;
 }
 
+.searchBar a {
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+
+.searchBar a:hover {
+  background-color: var(--backgroundColor);
+}
+
 .searchBar input {
   margin-left: 1rem;
   align-self: center;
